@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 화면 높이의 100%만큼을 차지하도록 설정하여 수직 가운데 정렬 */
+    background-color: #ff5500;
+    margin: 0;
+}
+
+.box {
+    top: 10%;
+    position: absolute;
+    color: #fff; /* 텍스트 색상 설정 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    line-height: 200px; /* 수직 가운데 정렬을 위한 높이 설정 */
+}
+
+/* 글자 스타일 설정 */
+.text {
+    font-size: 48px; /* 글자 크기 설정 */
+}
+
+.container {
+    text-align: center;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.my-button {
+    width: 150px; /* 버튼 너비 설정 */
+    height: 50px; /* 버튼 높이 설정 */
+    margin: 10px; /* 버튼 간격 설정 */
+    font-size: 16px; /* 버튼 텍스트 크기 설정 */
+    background-color: #cbb9af;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.rectangle {
+    width: 200px; /* 원하는 사각형 너비 설정 */
+    height: 200px; /* 원하는 사각형 높이 설정 */
+    background-color: #3498db; /* 배경 색상 설정 */
+    color: #fff; /* 텍스트 색상 설정 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 24px; /* 텍스트 크기 설정 */
+}

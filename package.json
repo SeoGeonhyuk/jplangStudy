@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.4",
     "express": "^4.17.1",
-    "axios": "^0.21.4"
+    "http": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
   }
 }
