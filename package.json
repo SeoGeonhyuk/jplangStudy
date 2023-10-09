@@ -1,0 +1,15 @@
+{
+  "name": "jplangstudy",
+  "version": "1.0.0",
+  "description": "일본어 한자 공부를 위해서 만드는 토이프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.4"
+  }
+}
